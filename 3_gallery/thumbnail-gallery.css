@@ -3,3 +3,32 @@ body {
     min-height: 100vh;
     font: normal 16px sans-serif;
 }
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    color: #58595a;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #85878c;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
